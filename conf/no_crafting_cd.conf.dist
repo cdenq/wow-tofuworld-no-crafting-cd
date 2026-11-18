@@ -1,0 +1,20 @@
+[worldserver]
+
+###################################################################################################
+# wow-tofuworld-no-crafting-cd
+#
+# The cooldown removal itself is the module's SQL (spell_cooldown_overrides), applied by the worldserver's updater.
+# These keys control the client cooldown clearing and the login message.
+###################################################################################################
+
+#    NoCraftingCd.Enable
+#        Description: Clear the client-side cooldown display after a profession craft whose cooldown the SQL removed.
+#        Default:     1 (enabled)
+
+NoCraftingCd.Enable = 1
+
+#    NoCraftingCd.Announce
+#        Description: Show a login message saying the module is active.
+#        Default:     1 (enabled)
+
+NoCraftingCd.Announce = 1
