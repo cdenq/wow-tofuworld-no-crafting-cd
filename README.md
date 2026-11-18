@@ -12,7 +12,7 @@ The spell list comes from VenomekPL/mod-profession-craft-cd at commit d9dc8a1 (M
 
 ## Install
 
-1. Copy this repo folder into the deploy set `WoW Projects\modules` and run `Update Source.bat` (answer Y to Rebuild anyway).
+1. Copy this repo folder into the deploy set `WoW Projects\modules` under the folder name `mod-tofu-no-crafting-cd` (the core calls the loader `Addmod_tofu_no_crafting_cdScripts` from that folder name), and run `Update Source.bat` (answer Y to Rebuild anyway).
 2. Copy `no_crafting_cd.conf.dist` to `no_crafting_cd.conf` in `C:\Build\bin\RelWithDebInfo\configs\modules`.
 3. Start the servers.
 
